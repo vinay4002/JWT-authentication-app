@@ -40,8 +40,6 @@ It demonstrates secure user registration, login, and session handling using **JW
 
 ## ⚙️ Setup Instructions
 
-### Backend
-```bash
 # Clone repository
 git clone https://github.com/yourusername/fullstack-auth.git
 cd fullstack-auth/backend
@@ -49,5 +47,13 @@ cd fullstack-auth/backend
 # Install dependencies
 npm install
 
-# Start server
+# Start backend server (common practice)
+npx nodemon server.js
+
+cd ../frontend
+
+# Install dependencies
+npm install
+
+# Start React development server
 npm run dev
